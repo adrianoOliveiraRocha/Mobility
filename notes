@@ -1,0 +1,21 @@
+https://dados.fortaleza.ce.gov.br/catalogo/organization/about/etufor
+
+URLs:
+  http://gistapis.etufor.ce.gov.br:8081/api/linhas/
+
+  http://gistapis.etufor.ce.gov.br:8081/api/itinerario/ + idLinha  
+
+  http://gistapis.etufor.ce.gov.br:8081/api/logradouros/
+
+  http://gistapis.etufor.ce.gov.br:8081/api/horarios/ + idLinha + ?data= + data // data: YYYYMMDD  
+
+  http://gistapis.etufor.ce.gov.br:8081/api/LinhasDologradouro/ + idLogradouro
+
+  pontos de controle: https://dados.fortaleza.ce.gov.br/dataset/b959a013-d884-497d-9554-197503029086/resource/81cf6cb7-0fdc-4c64-9063-a27dab1be50d/download/pontos.xml
+
+
+AsyncStogarge:
+  https://react-native-async-storage.github.io/async-storage/docs/usage
+  Async Storage can only store string data, so in order to store object data you need to serialize 
+  it first. For data that can be serialized to JSON you can use JSON.stringify() when saving the 
+  data and JSON.parse() when loading the data.
